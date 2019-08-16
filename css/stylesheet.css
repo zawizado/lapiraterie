@@ -5,14 +5,18 @@ body {
     font: 1em/1.62 sans-serif;
 }
 
-body {
+
+
+p {
     display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
-html {
-
-
-    color: -internal-root-color;
+article {
+    display: block;
 }
 
 footer {
@@ -20,4 +24,5 @@ footer {
 	text-align: center;
 	padding-top: 1em;
 }
+
 
